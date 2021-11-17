@@ -5,7 +5,7 @@
 - Écrire un programme permettant d'entrer un nombre donné de personnes et de les afficher.
 
 La structure personne est : 
-```
+```cpp
 struct Personne
 {
 	std::string nom, prenom;
