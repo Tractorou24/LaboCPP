@@ -21,7 +21,7 @@ For this assignement, you will implement a very specific hash table.
 - ***You must implement at least 4 public methods and 1 operator in your class :***
 
 ## - Insert
-- First, check if key exists. If it does, do nothing.
+- First, check if key exists.
 - Lowercase the value and take the first character as hash value.
 - If the status of the corresponding slot is not `Occupied`, put it here.
 - Else, try the next slot until you find a free one. If all the table is full, throw `std::runtime_error`.
